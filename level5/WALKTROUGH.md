@@ -7,7 +7,7 @@ objdump -t ./level5 | grep o
 ```
 
 --> On obtient la ligne `080484a4 g     F .text	0000001e              o`
-o est donc bien une fonction (F), nous allons donc chercher a jump sur son adresse: 080484a4 (ou \xa4\x84\x04\x08 en Little Endian). --> En decimal: 134513828
+o est donc bien une fonction (F), nous allons donc chercher a executer son adresse: 080484a4 (ou \xa4\x84\x04\x08 en Little Endian). --> En decimal: 134513828
 
 ```shell
 objdump -R ./level5 | grep exit
