@@ -2,6 +2,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 
+int m
+
 void v(void)
 {
   char local_20c [520];
