@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
 
 void p(char *param_1, char *param_2)
 {
@@ -5,7 +9,7 @@ void p(char *param_1, char *param_2)
 	char local_100c[4104];
 
 	puts(param_2);
-	read(0, local_100c, 4096)
+	read(0, local_100c, 4096);
 	pcVarl = strchr(local_100c, 10);
 	*pcVarl = '\0';
 	strncpy(param_1, local_100c, 20);
