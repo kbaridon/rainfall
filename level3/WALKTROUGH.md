@@ -1,9 +1,3 @@
-
-
-
-
-
-
 # Level 3
 
 Utiliser la vulnerabilite de printf

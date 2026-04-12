@@ -3,7 +3,7 @@ En analysant le code, on constate qu'afin de pouvoir lire notre prochain mot de 
 On va d'abbord chercher plus de details sur n:
 
 ```shell
-objdump -t ./level5 | grep n
+objdump -t ./level6 | grep n
 ```
 
 --> On obtient la ligne `08048454 g     F .text	00000014              n`
